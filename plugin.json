@@ -1,0 +1,22 @@
+{
+    "name": "workflow-plugin-actors",
+    "version": "0.1.0",
+    "description": "Actor model support with goakt v4 — stateful entities, fault-tolerant message-driven workflows",
+    "author": "GoCodeAlone",
+    "license": "MIT",
+    "type": "external",
+    "tier": "community",
+    "minEngineVersion": "0.5.0",
+    "keywords": ["actor", "goakt", "stateful", "message-driven", "concurrency"],
+    "homepage": "https://github.com/GoCodeAlone/workflow-plugin-actors",
+    "repository": "https://github.com/GoCodeAlone/workflow-plugin-actors",
+    "capabilities": {
+        "configProvider": false,
+        "moduleTypes": ["actor.system", "actor.pool"],
+        "stepTypes": [
+            "step.actor_send",
+            "step.actor_ask"
+        ],
+        "triggerTypes": []
+    }
+}
